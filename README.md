@@ -1,5 +1,5 @@
-##Developed an AI-based medical report generation system using DenseNet121, U-Net, GPT-2, achieving 82.9% AUC. 
-Automated report creation via Gradio and Flask, generating structured PDF outputs for radiology use.
+## Developed an AI-based medical report generation system using DenseNet121, U-Net, GPT-2, achieving 82.9% AUC. 
+#### Automated report creation via Gradio and Flask, generating structured PDF outputs for radiology use.
 
 AI-Powered Medical Report Generation using X-ray Images
 ## Overview
@@ -9,15 +9,15 @@ The system provides a user-friendly interface built with Gradio or Flask, enabli
 
 ## Project Workflow
 
-# Image Upload
+### Image Upload
    User uploads an X-ray image (PNG or DICOM).
-# Preprocessing & Segmentation (U-Net)
+### Preprocessing & Segmentation (U-Net)
    The uploaded image is segmented to isolate the lungs or specific organ region.
-# Disease Classification (DenseNet121)
+### Disease Classification (DenseNet121)
    The system predicts the top probable diseases or abnormalities.
-# Report Generation (GPT-2 / BERT)
+### Report Generation (GPT-2 / BERT)
    A language model generates a structured radiology report with findings and impressions.
-# Report Output
+### Report Output
    The generated report can be viewed, downloaded as PDF, or shared directly via the interface.
 
 ## Model Details
