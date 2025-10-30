@@ -21,7 +21,7 @@ The system provides a user-friendly interface built with Gradio or Flask, enabli
    The generated report can be viewed, downloaded as PDF, or shared directly via the interface.
 
 ## Model Details
-DenseNet121 was fine-tuned for multi-label classification on the Indiana X-ray dataset.
-U-Net was trained for lung segmentation to highlight affected areas.
-GPT-2 / BERT was fine-tuned for radiology-style report text generation.
+* DenseNet121 was fine-tuned for multi-label classification on the Indiana X-ray dataset.
+* U-Net was trained for lung segmentation to highlight affected areas.
+* GPT-2 / BERT was fine-tuned for radiology-style report text generation.
 
